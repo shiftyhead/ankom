@@ -74,6 +74,11 @@ nav a {
   font-weight: 300;
   line-height: 24px;/* Approximation due to font substitution */
   text-align: left;
+  width: 50%;
+}
+.main_c img{
+  width: 50%;
+  float: left;
 }
 
 .footer_h{
