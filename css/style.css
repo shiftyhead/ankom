@@ -6,7 +6,7 @@ body {
 }
 header {
   background: #B0DDDD;
-  height: 70px;
+  /* height: 70px; */
 }
 .main {
   background: #F9F9F9;
@@ -14,7 +14,7 @@ header {
 }
 footer {
   background: #DCCEC8;
-  height: 70px;
+  /* height: 70px; */
 }
 .container {
   width: 100%;
@@ -42,6 +42,7 @@ nav a {
   font-family: Montserrat;
   text-decoration: none;
   line-height: 60px;
+  color: #6c6c6c;
 }
 .container:after, .row:after {
   content: "";
@@ -49,7 +50,7 @@ nav a {
   clear: both;
 }
 .row {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 .col-1-3 {
   min-width: 100px;
@@ -58,6 +59,23 @@ nav a {
   float: left;
 
 }
+
+.main_h{
+  font-family: Montserrat;
+  color: #6c6c6c;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+.main_c{
+  font-family: Montserrat;
+  color: #6c6c6c;
+  font-size: 14px;/* Approximation due to font substitution */
+  font-weight: 300;
+  line-height: 24px;/* Approximation due to font substitution */
+  text-align: left;
+}
+
 .footer_h{
   font-family: Montserrat;
   text-align: center;
