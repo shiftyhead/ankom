@@ -104,10 +104,10 @@ nav a {
   font-weight: 700;
 
 }
-.footer_c a{
+.footer_c a, .main_c a{
   color: #6c6c6c;
 }
-.footer_c img{
+.file_icon img{
   width: 38px;
 }
 
