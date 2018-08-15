@@ -6,96 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     <title>Анком</title>
   </head>
   <body>
     <header>
-      <div class="container">
-        <a href="index.html" class="logo">
-          <img src="img/logo.jpg" alt="logo">
-        </a>
-        <nav>
-          <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-          </ul>
-        </nav>
-      </div>
+      <a class="float-left" href="index.html">
+        <img src="img/logo.png" height="40" alt="">
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalog.html">Каталог</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html">Контакты</a>
+        </li>
+      </ul>
     </header>
-    <div class="main">
-      <div class="container">
-        <div class="main_h">
-          Шпилька ОСТ 26-2039-96
+    <div class="container">
+    <div class="row">
+      <div class="col">
+        Одна из трёх колонок
+      </div>
+      <div class="col">
+        Одна из трёх колонок
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h3>Контакты</h3>
+          <address>
+            г.Сызрань, ул.Нефтяная, 2Б
+            <br>
+            <abbr title="Телефон">тел.:</abbr>
+            +7(927)798-12-47
+          </address>
         </div>
-        <div class="row">
-          <div class="main_c">
-            <img src="img/spilka.png" alt="">
+        <div class="col text-center">
+          <h3>Документы</h3>
+          <a href="docs/info.pdf" class="badge badge-light">
+            <img src="img/pdf.png" width="38px" alt="">
+            информационный бюллетень
+          </a>
+        </div>
+        <div class="col text-center">
+          <h3>Оставьте e-mail</h3>
+          <form>
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
-          <div class="main_c">
-            <p>Шпильки нормальной точности с диаметром резьбы от 6 до 48 мм, ввинчиваемые в резьбовые отверстия деталей сосудов и аппаратов, применяемых в химической, нефтеперерабатывающей, нефтехимической, газовой, нефтяной и других смежных отраслях промышленности на условное давление Ру до 2,5 МПа (25 кгс/см2) и температуру от минус 70 до 300 градусов С.</p>
-            <a href="docs/ОСТ 26-2039-96.pdf" class="file_icon">
-              <img src="img/pdf.png" alt="">
-              ОСТ 26-2039-96
-            </a>
-          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          &copy 2011-2018, ООО "АНКОМ"
+        </div>
+        <div class="col text-center">
+          <!-- <a href="skype:desperate_accountant?call"> -->
+            <img src="img/skype.png" width="38px" alt="skype">
+          <!-- </a> -->
+        </div>
+        <div class="col text-center text-uppercase">
+          политика приватности
         </div>
       </div>
     </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-1-3">
-            <div class="footer_h">
-              Контакты
-            </div>
-            <div class="footer_c">
-              <div class="">Адрес: г.Сызрань, ул.Нефтяная, 2Б</div>
-              <div class="">Телефон: +7 (927) 7981247</div>
-              <div class="">Факс: (8464) 982810</div>
-            </div>
-          </div>
-          <div class="col-1-3">
-            <div class="footer_h">
-              Документы
-            </div>
-            <div class="footer_c">
-              <a href="docs/info.pdf" class="file_icon">
-                <img src="img/pdf.png" alt="">
-                информационный бюллетень
-              </a>
-            </div>
-          </div>
-          <div class="col-1-3">
-            <div class="footer_h">
-              Оставьте e-mail
-            </div>
-            <div class="footer_c">
-              <form class="footer_f" action="index.html" method="post">
-                <input type="text" name="" value="" placeholder="ваш адрес">
-                <img src="img/send.png" alt="send">
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-1-3">
-            <div class="copy">&copy 2011-2018, ООО "Анком"</div>
-          </div>
-          <div class="col-1-3">
-            <div class="social">
-              <a href="skype:desperate_accountant?call">
-                <img src="img/skype.png" alt="skype">
-              </a>
-            </div>
-          </div>
-          <div class="col-1-3">
-            <div class="politics">политика приватности</div>
-          </div>
-        </div>
-      </div>
-    </footer>
-</body>
+  </footer>
+  </body>
 </html>
